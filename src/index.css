@@ -1,7 +1,6 @@
 :root {
   --doc-height: 100%;
- }
-
+}
 html,
 body,
 #root {
@@ -12,13 +11,11 @@ html.dark {
   color-scheme: dark;
   @apply bg-slate-900 text-slate-100;
 }
-
 body {
   @apply font-sans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   @apply font-mono;
 }
@@ -105,7 +102,6 @@ code {
       margin: 0;
       line-height: 1;
       font-size: 2em;
-      font-family: "Alegreya Sans SC", sans-serif;
       margin-top: -0.1em; }
     .monster .monster-header p {
       margin: 0; }
@@ -137,7 +133,6 @@ code {
   .monster h5 {
     font-weight: bold;
     color: #9a1515;
-    font-family: "Alegreya Sans SC", sans-serif;
     display: inline-block;
     width: 100%;
     margin-bottom: 0;
@@ -288,23 +283,6 @@ code {
       display: none; }
       .monster .h5-traits + .h5-border + .monster-trait {
         margin-top: 0.57em; }
-  .monster.theme-5e .monster-contents-body {
-    background: url("https://i.imgur.com/wAhINL9.jpg"); }
-  .monster.theme-5e .monster-contents-header,
-  .monster.theme-5e .monster-contents-footer {
-    height: 0.4em;
-    min-height: 3px;
-    background: #bd9b4c;
-    border: 1px solid black;
-    border-left: 0;
-    border-right: 0;
-    width: 100%;
-    background-image: linear-gradient(45deg, #bd9b4c 25%, #b38720 25%, #b38720 50%, #bd9b4c 50%, #bd9b4c 75%, #b38720 75%, #b38720 100%);
-    background-size: 5px 5px; }
-  .monster.theme-transparent {
-    box-shadow: none; }
-    .monster.theme-transparent .monster-contents-body {
-      background: none; }
   .monster.theme-giffyglyph {
     box-shadow: none; }
     .monster.theme-giffyglyph .h5-traits {
@@ -327,7 +305,6 @@ code {
         width: 100%;
         display: inline-flex; }
         .monster.theme-giffyglyph ul li p .label {
-          font-family: "Alegreya Sans SC", sans-serif;
           margin-right: 0.5em;
           text-align: right;
           display: inline-block;
@@ -383,7 +360,6 @@ code {
       margin: 0 0.65em 0.3em;
       font-weight: bold;
       color: #9a1515;
-      font-family: "Alegreya Sans SC", sans-serif;
       display: inline-block;
       width: calc(100% - 1.3em);
       padding: 0 0.5em !important;

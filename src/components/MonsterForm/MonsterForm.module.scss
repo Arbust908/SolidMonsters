@@ -1,0 +1,6 @@
+.form {
+  @apply flex flex-col justify-center items-center;
+  & > select {
+    @apply w-full rounded border-2 border-slate-200 bg-slate-800 text-slate-100 shadow-sm p-2 mb-4;
+  }
+}

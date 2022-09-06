@@ -1,0 +1,24 @@
+.app {
+  @apply flex flex-col h-full;
+  .main {
+    @apply w-full grow grid;
+  }
+  .footer {
+    @apply flex justify-between px-6 py-2;
+  }
+  .footer__btn {
+    @apply bg-gray-200 text-slate-800 px-4 py-1 border-2 border-transparent cursor-pointer;
+    &:first-of-type {
+      @apply rounded-l-lg;
+    }
+    &:last-of-type {
+      @apply rounded-r-lg;
+    }
+    &.selected {
+      @apply bg-gray-700 text-slate-100 font-bold cursor-not-allowed;
+    }
+    &:not(.selected):hover {
+      @apply bg-transparent border-slate-200 text-slate-100;
+    }
+  }
+}

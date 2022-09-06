@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended", "plugin:solid/typescript", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["solid"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "solid/reactivity": "warn",
+    "solid/no-destructure": "warn",
+    "solid/jsx-no-undef": "error"
+  }
+}
